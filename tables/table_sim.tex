@@ -1,0 +1,30 @@
+% latex table generated in R 3.5.2 by xtable 1.8-3 package
+% Fri Jul 31 08:10:00 2020
+\begin{table}[!htbp]
+\centering
+\begingroup\footnotesize
+\begin{tabular}{llllll}
+  \hline
+ & O/E & AUC & SNB & $\Delta$BS & $\Delta$LS \\ 
+  \hline \textbf{Performance Metrics} & \\ 
+B+B (M) & 1.01 (0.94, 1.08) & 0.69 (0.67, 0.71) & 0.26 (0.21, 0.30) & 0.25 (0.09, 0.41) & 1.12 (0.60, 1.66) \\ 
+  B+B (E) & 0.98 (0.91, 1.04) & 0.68 (0.67, 0.70) & 0.25 (0.20, 0.29) & 0.12 (-0.02, 0.25) & 0.63 (0.18, 1.05) \\ 
+  B+B (E2) & 1.00 (0.93, 1.07) & 0.68 (0.67, 0.70) & 0.24 (0.19, 0.28) & 0.13 (-0.03, 0.27) & 0.61 (0.17, 1.06) \\ 
+  BRCAPRO & 1.15 (1.07, 1.23) & 0.67 (0.65, 0.69) & 0.21 (0.17, 0.25) & 0.00 (0.00, 0.00) & 0.00 (0.00, 0.00) \\ 
+  BCRAT & 1.14 (1.05, 1.21) & 0.66 (0.64, 0.68) & 0.20 (0.15, 0.24) & -0.21 (-0.46, 0.06) & -1.15 (-2.10, -0.16) \\ 
+  B+B(M)>B+B(E) & \mycolor{0.570} & \mycolor{0.994} & \mycolor{0.725} & \mycolor{0.999} & \mycolor{1.000} \\ 
+   \hline \multicolumn{3}{l}{\textbf{Comparisons Across Bootstrap Replicates}} & & & \\ 
+B+B(M)>B+B(E2) & \mycolor{0.422} & \mycolor{0.994} & \mycolor{0.886} & \mycolor{0.995} & \mycolor{1.000} \\ 
+  B+B(M)>BRCAPRO & \mycolor{0.978} & \mycolor{0.999} & \mycolor{0.998} & \mycolor{0.998} & \mycolor{1.000} \\ 
+  B+B(M)>BCRAT & \mycolor{0.962} & \mycolor{1.000} & \mycolor{1.000} & \mycolor{1.000} & \mycolor{1.000} \\ 
+  B+B(E)>B+B(E2) & \mycolor{0.401} & \mycolor{0.625} & \mycolor{0.920} & \mycolor{0.235} & \mycolor{0.653} \\ 
+  B+B(E)>BRCAPRO & \mycolor{0.944} & \mycolor{0.999} & \mycolor{1.000} & \mycolor{0.961} & \mycolor{0.998} \\ 
+  B+B(E)>BCRAT & \mycolor{0.924} & \mycolor{1.000} & \mycolor{0.999} & \mycolor{0.994} & \mycolor{1.000} \\ 
+  B+B(E2)>BRCAPRO & \mycolor{0.974} & \mycolor{0.999} & \mycolor{0.991} & \mycolor{0.957} & \mycolor{0.996} \\ 
+  B+B(E2)>BCRAT & \mycolor{0.952} & \mycolor{1.000} & \mycolor{0.998} & \mycolor{0.995} & \mycolor{1.000} \\ 
+   \hline
+\end{tabular}
+\endgroup
+\caption{5-year performance in a simulated dataset with 45,557 probands (717 cases). B+B: BRCAPRO+BCRAT. $\Delta$BS: \% relative improvement in Brier Score compared to BRCAPRO. $\Delta$LS: \% relative improvement in logarithmic score compared to BRCAPRO. The ``Comparisons Across Bootstrap Replicates" section shows pairwise comparisons involving the combination models across 1000 bootstrap replicates of the validation dataset; the row for $A>B$ shows the proportion of bootstrap replicates where model A outperformed model B with respect to each metric. Proportions $>0.5$ are highlighted in blue (with darker shades of blue for higher proportions) and proportions $\leq 0.5$ are highlighted in red (with darker shades of red for lower proportions).} 
+\label{table:table_sim}
+\end{table}
